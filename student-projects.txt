@@ -1,0 +1,45 @@
+
+This file contains a list of 3-6 month projects for students from various 
+programs including GSoC, the Erasmus program for Lithunian CS students, 
+DIANA fellows, etc.
+
+GSoC 2015 ideas page
+http://ph-dep-sft.web.cern.ch/article/175948
+
+CMS Wiki page for CS projects (probably protected for pointless reasons)
+https://twiki.cern.ch/twiki/bin/viewauth/CMS/CMSComputerScienceProjects
+
+==========================================================================
+Title: Template Template
+
+Contact: Template Template
+
+Description: Template Template
+
+Skills Required: Template Template
+==========================================================================
+Title: CMSSW IO for latency and usability
+
+Contact: Brian Bockelman
+
+Description: For several years, CMSSW has led the field in advanced
+ROOT IO techniques; CMSSW has pioneered several ideas that have
+been later incorporated into the base ROOT code. ROOT IO is the
+serialization layer used by all of HEP; however, it is well-known
+for having performance degradations over high latency. This project
+will continue to improve the CMSSW IO layer on top of ROOT IO to
+decrease latency sensitivity, contribute successful ideas into the
+underlying ROOT software, and IO issues in CMSSW easier to debug.
+We propose the following tasks: Validate the interaction between
+ROOT prefetching code and CMSSW so this can be enabled by default;
+port the DAVIX HTTP client into the CMSSW IO layer for improved
+performance; implement the existing multisource algorithm into the
+HTTP client; design and implement measurements of latency-sensitivity
+and blocking that can be reported in every job; track the "redirection
+history" (the list of all servers a client encountered) and report
+this in failure messages, port the existing multisource algorithm
+into an Xrootd client plugin; port various optimizations from CMSSW
+IO layer to ROOT IO.
+
+Skills Required: Strong C++ knowledge. Understanding of basic networking technologies. 
+==========================================================================
